@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <div class="header__top">
+            <div class="row align-items-center gy-2">
+                <div class="col-4 col-md-2 col-xl-3">
+                    <a href="/" class="logo header__logo">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#logo"></use>
+                        </svg>          
+                    </a>                
+                </div>
+                <div class="ps-0 ps-sm-2 col-8 col-md-4 col-xl-3 text-end order-md-2">
+                    <a class="header__btn main-btn" href="#">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#plus"></use>
+                        </svg>                        
+                        Добавить компанию</a>
+                </div>
+                <div class="col-3 d-md-none">
+                    <div class="header__burger">
+                        <span>Меню</span>
+                    </div>
+                </div>
+                <div class="col-9 col-md-6">
+                    <form  class="header__search search">
+                        <button class="search__btn"> 
+                            <svg class="search__icon icon-svg">
+                                <use xlink:href="img/icons/sprite-icons.svg#search"></use>
+                            </svg>
+                        </button>
+                        <input class="search__input" name="text" type="text" placeholder="Введите название компании ...">                    
+                    </form>
+                </div>
+                
+            </div>        
+        </div>
+        <nav class="header__nav top-menu">
+            <button class="top-menu__close"></button>
+            <ul class="top-menu__list">
+                <li class="top-menu__item active"><span class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#repair"></use>
+                    </svg>
+                    Ремонт квартир
+                </span></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#design"></use>
+                    </svg>
+                    Дизайн интерьеров
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#map"></use>
+                    </svg>
+                    Карта компаний <span> 346</span> 
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#review"></use>
+                    </svg>
+                    Последние отзывы <span> 2600</span> 
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#calculator"></use>
+                    </svg>
+                    Калькулятор ремонта
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+            <main class="index-page">
+                <div class="index-page__top page-top">
+                    <div class="container">
+                        <div class="page-top__title">
+                            <h1>Рейтинг компаний в&nbsp;Санкт&#8209;Петербурге</h1>
+                        </div>
+                        <div class="page-top__desc">Выберите нужный вам рейтинг</div>
+                        <div class="page-top__buttons">
+                            <button class="page-top__btn main-btn active">
+                                <svg class="icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#repair"></use>
+                                </svg>
+                                Ремонт квартир
+                            </button>
+                            <button class="page-top__btn main-btn">
+                                <svg class="icon-svg">
+                                    <use xlink:href="img/icons/sprite-icons.svg#design"></use>
+                                </svg>
+                                Дизайн интерьеров
+                            </button>
+                        </div>
+                    </div>                    
+               </div>
+               <div class="container">
+                    <div class="index-page__content index-tabs tabs">
+                        <div class="index-tabs__caption tabs__caption">
+                            <button class="index-tabs__btn tabs__btn active">Списком</button>
+                            <button class="index-tabs__btn tabs__btn">На карте</button>
+                        </div>
+                        <div class="index-tabs__wrap tabs__wrap">
+                            <div class="index-tabs__content tabs__content active">
+                                <div class="directory">
+                                    <div class="directory__top">
+                                        <div class="directory__amount">258 компаний</div>
+                                        <form class="directory__filter" action="">
+                                            <select class="directory__sort">
+                                                <option disabled selected>По кол-ву отзывов                                                    
+                                                </option>
+                                                <option value="">По увеличению</option>
+                                                <option value="">По убыванию</option>                                        
+                                            </select>
+                                            <select class="directory__sort">
+                                                <option disabled selected>По рекомендациям                                                    
+                                                </option>
+                                                <option value="">По увеличению</option>
+                                                <option value="">По убыванию</option>                                      
+                                            </select>
+                                        </form>
+                                    </div>
+                                    <div class="directory__body">
+                                        <div class="directory__item directory__item--top item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/real-architecture.jpg" alt="Real Architecture">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        Real Architecture
+                                                    </div>
+                                                    <div class="item__top-10 icon-top">
+                                                        <svg class="icon-svg">
+                                                            <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                                        </svg>
+                                                        ТОП 10                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">75 отзывов</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--5 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Крестовский остров</span> пр-т Константиновский, д. 19
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--top"><span>89%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item directory__item--top item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/pbt.jpg" alt="РВТ">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        РВТ
+                                                    </div>
+                                                    <div class="item__top-10 icon-top">
+                                                        <svg class="icon-svg">
+                                                            <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                                        </svg>
+                                                        ТОП 10                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">64 отзыва</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--2 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Удельная</span> пр-кт Костромской, 48
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--top"><span>88%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item directory__item--top item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/nevskie-zori.jpg" alt="Невские зори">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        Невские зори
+                                                    </div>
+                                                    <div class="item__top-10 icon-top">
+                                                        <svg class="icon-svg">
+                                                            <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                                        </svg>
+                                                        ТОП 10                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">47 отзывов</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--4 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Улица Дыбенко</span> пр. Большевиков, д. 18 лит. А
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--top"><span>89%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item directory__item--top item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/bard-remont.jpg" alt="БАРД-Ремонт">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        БАРД-Ремонт
+                                                    </div>
+                                                    <div class="item__top-10 icon-top">
+                                                        <svg class="icon-svg">
+                                                            <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                                        </svg>
+                                                        ТОП 10                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">31 отзыв</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--3 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Елизаровская</span> Пр. Елизарова д. 34
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--top"><span>91%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item directory__item--top item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/yutta.jpg" alt="ЮТТА">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        ЮТТА
+                                                    </div>
+                                                    <div class="item__top-10 icon-top">
+                                                        <svg class="icon-svg">
+                                                            <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                                        </svg>
+                                                        ТОП 10                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">40 отзывов</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--1 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Автово</span> пр. Стачек, 67 корп. 4
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--top"><span>100%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item directory__item--top item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/intekstroy.jpg" alt="ИнтекСтрой">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        ИнтекСтрой
+                                                    </div>
+                                                    <div class="item__top-10 icon-top">
+                                                        <svg class="icon-svg">
+                                                            <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                                        </svg>
+                                                        ТОП 10                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">34 отзыва</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--2 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Фрунзенская</span> Московский проспект, дом 79 лит. А
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--top"><span>76%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/remstroyprodukt.jpg" alt="РемСтройПродукт">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        РемСтройПродукт
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">56 отзывов</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--5 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Волковская</span> ул. Бухарестская, 1
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--low"><span>10%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/rm-remont.jpg" alt="РМ-Ремонт">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        РМ-Ремонт
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">33 отзыва</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--1 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Нарвская</span> ул. Двинская, д. 3 , лит. А, БЦ “Бригантина”
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--medium"><span>50%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="directory__item item">
+                                            <div class="item__logo">
+                                                <img src="img/logos/ooo-alyans.jpg" alt="ООО «АЛЬЯНС»">
+                                            </div>
+                                            <div class="item__body">
+                                                <div class="item__top">
+                                                    <div class="item__title subtitle">
+                                                        ООО «АЛЬЯНС»
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="item__rating">
+                                                    <div class="item__stars stars">
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                        <div class="stars__item active"></div>
+                                                    </div>
+                                                    <div class="item__review">29 отзывов</div>
+                                                </div>
+                                                <div class="item__info location-icon">
+                                                    <svg class="metro-icon metro-icon--4 icon-svg">
+                                                        <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                    </svg>
+                                                    <span>Проспект Большевиков</span> пр. Наставников, 27
+                                                </div>
+                                                <div class="item__info phone-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>                                               
+                                            </div>
+                                            <div class="item__links">
+                                                <div class="item__mark item__mark--low"><span>30%</span> Рекомендуют</div>
+                                                <div class="item__buttons">
+                                                    <a class="border-btn" href="#">Подробнее</a>
+                                                    <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="directory__more-btn border-btn" href="#">
+                                        Показать еще
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="index-tabs__content tabs__content"></div>
+                        </div>
+                    </div>
+                    <section class="section">
+                        <div class="h2">Последние отзывы</div>
+                        <div class="row gy-3">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="review">
+                                    <div class="review__top">
+                                        <div class="review__img">
+                                            <img src="img/logos/pbt.jpg" alt="РВТ">
+                                        </div>
+                                        <div class="review__title subtitle">
+                                            РВТ
+                                        </div>
+                                        <div class="review__top icon-top">
+                                            <svg class="icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                            </svg>                                                 
+                                        </div>
+                                    </div>
+                                    <div class="review__stars stars">
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                    </div>
+                                    <div class="review__text sm-text">
+                                        Сделали просто отлично! Прекрасное сочетание цены, соблюдения сроков по договору, условий и материалов! А вообще, мастера действительно профессиональные - вот, и результат нормальный. Для нас так же было большим плюсом, что материалы все от партнёров (без розничной наценки) и платежи мы вносили частями.
+                                    </div>
+                                    <div class="review__date">7 февраля 2021</div>
+                                    <div class="review__author">Агата Анатольевна</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="review">
+                                    <div class="review__top">
+                                        <div class="review__img">
+                                            <img src="img/logos/intekstroy.jpg" alt="ИнтекСтрой">
+                                        </div>
+                                        <div class="review__title subtitle">
+                                            ИнтекСтрой
+                                        </div>
+                                        <div class="review__top icon-top">
+                                            <svg class="icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                            </svg>                                                 
+                                        </div>
+                                    </div>
+                                    <div class="review__stars stars">
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                    </div>
+                                    <div class="review__text sm-text">
+                                        Делал через эту компанию ремонт ванной комнаты. Цены, конечно, для меня высокие, но качество не плохое.
+                                    </div>
+                                    <div class="review__date">22 апреля 2021</div>
+                                    <div class="review__author">Александр Максимов</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="review">
+                                    <div class="review__top">
+                                        <div class="review__img">
+                                            <img src="img/logos/rm-remont.jpg" alt="РМ-Ремонт">
+                                        </div>
+                                        <div class="review__title subtitle">
+                                            РМ-Ремонт
+                                        </div>
+                                    </div>
+                                    <div class="review__stars stars">
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                        <div class="stars__item active"></div>
+                                    </div>
+                                    <div class="review__text sm-text">
+                                        У меня однушка, необходимо было делать ремонт, обратился к ним. Всем доволен. Работу выполнили за месяц примерно, как и договаривались. По цене все устроило, на качество тоже не жалуюсь, все на совесть сделано.
+                                    </div>
+                                    <div class="review__date">7 мая 2021</div>
+                                    <div class="review__author">Андрей</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="h2">Статьи</div>
+                        <div class="row gy-3">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="article">
+                                    <picture>
+                                        <source type="image/webp" srcset="img/article/article-1.webp">
+                                        <img class="article__img" src="img/article/article-1.jpg" alt="Давайте разбираться: стоит ли ждать усадки дома, чтобы начать ремонт">
+                                    </picture>
+                                    <div class="article__title subtitle">
+                                        Давайте разбираться: стоит ли ждать усадки дома, чтобы начать ремонт
+                                    </div>
+                                    <div class="article__text sm-text">Все слышали эту страшную историю: молодая семья въезжает в квартиру в новостройке, вкладывает деньги, силы и душу в ремонт, а потом происходит ужасное…</div>
+                                    <a class="article__link" href="#">Читать далее</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="article">
+                                    <picture>
+                                        <source type="image/webp" srcset="img/article/article-2.webp">
+                                        <img class="article__img" src="img/article/article-2.jpg" alt="Тренд или бред: плитка и керамогранит в жилых комнатах">
+                                    </picture>
+                                    <div class="article__title subtitle">
+                                        Тренд или бред: плитка и керамогранит в жилых комнатах
+                                    </div>
+                                    <div class="article__text sm-text">Зачастую модное явление в дизайне интерьера основано не на появлении чего-то принципиально нового, а на переосмыслении чего-то привычного.</div>
+                                    <a class="article__link" href="#">Читать далее</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="article">
+                                    <picture>
+                                        <source type="image/webp" srcset="img/article/article-3.webp">
+                                        <img class="article__img" src="img/article/article-3.jpg" alt="Как превратить типовую отделку от застройщика в индивидуальный интерьер">
+                                    </picture>
+                                    <div class="article__title subtitle">
+                                        Как превратить типовую отделку от застройщика в индивидуальный интерьер
+                                    </div>
+                                    <div class="article__text sm-text">Если волею судьбы вы стали владельцем квартиры с готовой отделкой от застройщика, значит скорее всего имеете дело с абсолютно нейтральным...</div>
+                                    <a class="article__link" href="#">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+               </div>
+               
+                
+            </main>
+            <footer class="footer">
+    <div class="footer__body">
+        <div class="container">
+            <div class="row gy-2 gy-sm-4">
+                <div class="col-4 col-lg-2 col-xl-3">
+                    <a href="/" class="footer__logo logo header__logo">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#logo"></use>
+                        </svg>          
+                    </a>                
+                </div>
+                
+                <div class="ps-0 ps-sm-2 col-8 col-lg-3 order-lg-2 text-end">
+                    <a class="footer__btn main-btn" href="#">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#plus"></use>
+                        </svg>                        
+                        Добавить компанию</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Добавить исполнителя</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Написать письмо</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Реклама на сайте</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Оставить заявку на ремонт</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 text-sm-end text-lg-start">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Правила размещения информации</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Пользовательское соглашение</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Политика конфиденциальности</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Карта сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="row justify-content-between gy-2">
+                <div class="col-auto">
+                    <a class="footer__link" href="#">Рейтинг компаний по ремонту и дизайну квартир</a>
+                </div>
+                <div class="col-auto">
+                    <span class="footer__link">©2022 - 2023 Все права защищены.</span>
+                </div>
+            </div>
+        </div>        
+    </div>
+</footer>
+
+<script src="libs/jquery.min.js"></script>
+<script src="js/app.js"></script> 
+        </div>  
+    </body>
+</html>
