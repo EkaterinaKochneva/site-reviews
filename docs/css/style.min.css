@@ -4901,6 +4901,11 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-width: 768px) {
+  .top-menu__close {
+    display: none;
+  }
+}
 
 .footer {
   margin-top: 90px;
