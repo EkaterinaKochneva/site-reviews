@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<title>Карточка компании</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <div class="header__top">
+            <div class="row align-items-center gy-2">
+                <div class="col-4 col-md-2 col-xl-3">
+                    <a href="/" class="logo header__logo">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#logo"></use>
+                        </svg>          
+                    </a>                
+                </div>
+                <div class="ps-0 ps-sm-2 col-8 col-md-4 col-xl-3 text-end order-md-2">
+                    <a class="header__btn main-btn" href="#">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#plus"></use>
+                        </svg>                        
+                        Добавить компанию</a>
+                </div>
+                <div class="col-3 d-md-none">
+                    <div class="header__burger">
+                        <span>Меню</span>
+                    </div>
+                </div>
+                <div class="col-9 col-md-6">
+                    <form  class="header__search search">
+                        <button class="search__btn"> 
+                            <svg class="search__icon icon-svg">
+                                <use xlink:href="img/icons/sprite-icons.svg#search"></use>
+                            </svg>
+                        </button>
+                        <input class="search__input" name="text" type="text" placeholder="Введите название компании ...">                    
+                    </form>
+                </div>
+                
+            </div>        
+        </div>
+        <nav class="header__nav top-menu">
+            <button class="top-menu__close"></button>
+            <ul class="top-menu__list">
+                <li class="top-menu__item active"><span class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#repair"></use>
+                    </svg>
+                    Ремонт квартир
+                </span></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#design"></use>
+                    </svg>
+                    Дизайн интерьеров
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#map"></use>
+                    </svg>
+                    Карта компаний <span> 346</span> 
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#review"></use>
+                    </svg>
+                    Последние отзывы <span> 2600</span> 
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#calculator"></use>
+                    </svg>
+                    Калькулятор ремонта
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+            <main class="company-page">
+                <div class="company-page__top page-top">
+                    <div class="container">
+                        <nav class="page-top__breadcrumbs breadcrumbs" aria-label="breadcrumb">
+                            <ol class="breadcrumbs__list">
+                                <li class="breadcrumbs__item">
+                                    <a href="/">Главная</a>
+                                </li>
+                                <li class="breadcrumbs__item">
+                                    <a href="#">Ремонт квартир</a>
+                                </li>
+                                <li class="breadcrumbs__item">
+                                    <span>Невские зори</span>
+                                </li>                                    
+                            </ol>                                
+                        </nav>
+                        
+                    </div>                    
+               </div>
+               <div class="company-page__container">
+                    <div class="container">
+                        <section class="company-page__company company">
+                            <div class="company__item item">
+                                <div class="item__logo">
+                                    <img src="img/logos/nevskie-zori.jpg" alt="Невские зори">
+                                </div>
+                                <div class="item__body">
+                                    <div class="item__top">
+                                        <div class="item__title">
+                                            <h1>Невские зори</h1>
+                                        </div>
+                                        <div class="item__top-10 icon-top">
+                                            <svg class="icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
+                                            </svg>
+                                            ТОП 10                                                        
+                                        </div>
+                                    </div>
+                                    <div class="item__rating">
+                                        <div class="item__stars stars">
+                                            <div class="stars__item active"></div>
+                                            <div class="stars__item active"></div>
+                                            <div class="stars__item active"></div>
+                                            <div class="stars__item active"></div>
+                                            <div class="stars__item active"></div>
+                                        </div>
+                                        <div class="item__review">47 отзывов</div>
+                                    </div>
+                                    <div class="item__socials socials">
+                                        <a href="#" class="socials__item">
+                                            <svg class="socials__icon icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#vkontakte"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="socials__item">
+                                            <svg class="socials__icon icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="socials__item">
+                                            <svg class="socials__icon icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#youtube"></use>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="socials__item">
+                                            <svg class="socials__icon icon-svg">
+                                                <use xlink:href="img/icons/sprite-icons.svg#telegram"></use>
+                                            </svg>
+                                        </a>
+                                    </div>  
+                                    <div class="item__tags">
+                                        <div class="item__tag tag">Ремонт квартир</div>
+                                        <div class="item__tag tag">Застройщики</div>
+                                        <div class="item__tag tag">Строительные компании</div>
+                                        <div class="item__tag tag">Малоэтажное строительство</div>
+                                    </div>                                           
+                                </div>
+                                
+                                <div class="item__links">
+                                    <div class="item__price subtitle">3400 ₽ м<sup>2</sup></div>
+                                    <div class="item__mark item__mark--top"><span>89%</span> Рекомендуют</div>
+                                    <div class="item__buttons">                                        
+                                        <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="company__map">   
+                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d67abbb1cf8bd4720842b2f2fbfd16412943989803614f2c31b5c44b71249b9&amp;source=constructor"></iframe>                  
+                            </div>
+                            <div class="company__info main-info">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="main-info__title">
+                                            <div class="h2">Общая информация</div>                                            
+                                        </div>
+                                        <p>Ремонт квартир в СПб отзывы клиентов, отзывы о ремонтных компаниях</p>
+                                        <div class="main-info__contacts">
+                                            <div class="main-info__contact item__info location-2-icon">
+                                                <svg class="metro-icon metro-icon--4 icon-svg">
+                                                    <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
+                                                </svg>
+                                                <span>Улица Дыбенко</span> пр. Большевиков, д. 18 лит. А
+                                            </div>
+                                            <div class="main-info__contact item__info email-icon"><a href="mailto:finhouserus@gmail.com">finhouserus@gmail.com</a></div>
+                                            <div class="main-info__contact item__info phone-2-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>
+                                            <div class="main-info__contact item__info site-icon"><a class="link" href="finhousegroup.ru">finhousegroup.ru</a></div>
+                                        </div>
+                                        <p>Наша компания оказывает максимально возможный объем услуг по ремонту квартир в Санкт-Петербурге. В нашем коллективе работают мастера с опытом более 15 лет, которым приходилось выполнять проекты различной сложности, в жилых, офисных помещениях. Покупаем стройматериалы только у проверенных поставщиков.</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="company__rating rating-block">
+                                            <div class="rating-block__title subtitle">Рейтинг</div>
+                                            <div class="rating-block__stars-row">
+                                                <div class="rating-block__stars stars">
+                                                    <div class="stars__item stars__item--big active"></div>
+                                                    <div class="stars__item stars__item--big active"></div>
+                                                    <div class="stars__item stars__item--big active"></div>
+                                                    <div class="stars__item stars__item--big active"></div>
+                                                    <div class="stars__item stars__item--big active"></div>
+                                                </div>
+                                                <div class="rating-block__grade"><span>4,92</span>/5</div>
+                                                <div class="item__review">47 отзыва</div>
+                                            </div>
+                                            <div class="rating-block__item">
+                                                <div class="rating-block__subtitle sm-subtitle">Сроки выполнения</div>
+                                                <div class="rating-block__scale scale">
+                                                    <div class="scale__line">
+                                                        <div class="scale__bar" data-grade="4.92"></div>
+                                                    </div>
+                                                    <div class="scale__grade">4,92</div>
+                                                </div>
+                                            </div>
+                                            <div class="rating-block__item">
+                                                <div class="rating-block__subtitle sm-subtitle">Цены</div>
+                                                <div class="rating-block__scale scale">
+                                                    <div class="scale__line">
+                                                        <div class="scale__bar" data-grade="4.86"></div>
+                                                    </div>
+                                                    <div class="scale__grade">4,86</div>
+                                                </div>
+                                            </div>
+                                            <div class="rating-block__item">
+                                                <div class="rating-block__subtitle sm-subtitle">Качество ремонта</div>
+                                                <div class="rating-block__scale scale">
+                                                    <div class="scale__line">
+                                                        <div class="scale__bar" data-grade="4.92"></div>
+                                                    </div>
+                                                    <div class="scale__grade">4,92</div>
+                                                </div>
+                                            </div>
+                                            <div class="rating-block__item">
+                                                <div class="rating-block__subtitle sm-subtitle">Качество взаимодействия</div>
+                                                <div class="rating-block__scale scale">
+                                                    <div class="scale__line">
+                                                        <div class="scale__bar" data-grade="4.92"></div>
+                                                    </div>
+                                                    <div class="scale__grade">4,92</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section">
+                            <div class="h2">Отзывы</div>
+                        </section>
+                </div>
+               </div>
+                    
+            </main>
+            <footer class="footer">
+    <div class="button-up">Вверх</div>
+    <div class="footer__body">
+        <div class="container">
+            <div class="row gy-2 gy-sm-4">
+                <div class="col-4 col-lg-2 col-xl-3">
+                    <a href="/" class="footer__logo logo header__logo">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#logo"></use>
+                        </svg>          
+                    </a>                
+                </div>
+                
+                <div class="ps-0 ps-sm-2 col-8 col-lg-3 order-lg-2 text-end">
+                    <a class="footer__btn main-btn" href="#">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#plus"></use>
+                        </svg>                        
+                        Добавить компанию</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Добавить исполнителя</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Написать письмо</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Реклама на сайте</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Оставить заявку на ремонт</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 text-sm-end text-lg-start">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Правила размещения информации</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Пользовательское соглашение</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Политика конфиденциальности</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Карта сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="row justify-content-between gy-2">
+                <div class="col-auto">
+                    <a class="footer__link" href="#">Рейтинг компаний по ремонту и дизайну квартир</a>
+                </div>
+                <div class="col-auto">
+                    <span class="footer__link">©2022 - 2023 Все права защищены.</span>
+                </div>
+            </div>
+        </div>        
+    </div>
+</footer>
+
+<script src="libs/jquery.min.js"></script>
+<script src="js/app.js"></script> 
+        </div>  
+    </body>
+</html>

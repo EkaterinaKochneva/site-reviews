@@ -18,4 +18,27 @@ $(document).ready(function() {
 
 	});
 
+	// Scroll UP
+	$(window).on('scroll', function () {
+		if ($(this).scrollTop() > 100) {
+			$('.button-up').addClass('scroll');
+		} else {
+			$('.button-up').removeClass('scroll');
+		}
+	});
+	$('.button-up').click(function(){
+		$('body,html').animate({
+		scrollTop: 0
+		}, 500);
+		return false;
+	});
+
+	// Scale
+	$('.scale__bar').each(function() {
+		let grade = $( this ).data("grade");
+		let width = (grade.toFixed(1)) / 5 * 100 + '%';
+		console.log(width);
+		$( this ).css('width', width);
+	  });
+
 })
