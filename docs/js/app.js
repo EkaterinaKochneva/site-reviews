@@ -41,4 +41,9 @@ $(document).ready(function() {
 		$( this ).css('width', width);
 	  });
 
+	  $(".range-slider-js").ionRangeSlider({
+        min: 0,
+        max: 100,
+        from: 40,
+    });
 })

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<title>Добавить компанию</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="libs/ion.rangeSlider.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <div class="header__top">
+            <div class="row align-items-center gy-2">
+                <div class="col-4 col-md-2 col-xl-3">
+                    <a href="/" class="logo header__logo">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#logo"></use>
+                        </svg>          
+                    </a>                
+                </div>
+                <div class="ps-0 ps-sm-2 col-8 col-md-4 col-xl-3 text-end order-md-2">
+                    <a class="header__btn main-btn" href="#">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#plus"></use>
+                        </svg>                        
+                        Добавить компанию</a>
+                </div>
+                <div class="col-3 d-md-none">
+                    <div class="header__burger">
+                        <span>Меню</span>
+                    </div>
+                </div>
+                <div class="col-9 col-md-6">
+                    <form  class="header__search search">
+                        <button class="search__btn"> 
+                            <svg class="search__icon icon-svg">
+                                <use xlink:href="img/icons/sprite-icons.svg#search"></use>
+                            </svg>
+                        </button>
+                        <input class="search__input" name="text" type="text" placeholder="Введите название компании ...">                    
+                    </form>
+                </div>
+                
+            </div>        
+        </div>
+        <nav class="header__nav top-menu">
+            <button class="top-menu__close"></button>
+            <ul class="top-menu__list">
+                <li class="top-menu__item active"><span class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#repair"></use>
+                    </svg>
+                    Ремонт квартир
+                </span></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#design"></use>
+                    </svg>
+                    Дизайн интерьеров
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#map"></use>
+                    </svg>
+                    Карта компаний <span> 346</span> 
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#review"></use>
+                    </svg>
+                    Последние отзывы <span> 2600</span> 
+                </a></li>
+                <li class="top-menu__item"><a href="#" class="top-menu__link">
+                    <svg class="top-menu__icon icon-svg">
+                        <use xlink:href="img/icons/sprite-icons.svg#calculator"></use>
+                    </svg>
+                    Калькулятор ремонта
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+            <main class="page">
+                <div class="page__top page-top">
+                    <div class="container">
+                        <nav class="page-top__breadcrumbs breadcrumbs" aria-label="breadcrumb">
+                            <ol class="breadcrumbs__list">
+                                <li class="breadcrumbs__item">
+                                    <a href="/">Главная</a>
+                                </li>
+                                <li class="breadcrumbs__item">
+                                    <span>Добавить компанию</span>
+                                </li>                                    
+                            </ol>                                
+                        </nav>
+                        <div class="page-top__title">
+                            <h1>Добавить компанию</h1>
+                        </div>
+                    </div>                    
+               </div>
+               <div class="container">
+                <section class="page__content add-company">                    
+                    <form class="add-company__form add-company-form">                                
+                        <div class="row gy-3 justify-content-center">
+                            <div class="col-md-5">
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Название компании<span>*</span></span>
+                                    <input class="custom-field__input-text" type="text" name="Название компании" placeholder="Название компании">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">ИНН<span>*</span></span>
+                                    <input class="custom-field__input-text" type="text" name="ИНН" placeholder="ИНН">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Опыт работы<span>*</span></span>
+                                    <input class="custom-field__input-text" type="text" name="Опыт работы" placeholder="Опыт работы">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Номер телефона<span>*</span></span>
+                                    <input class="custom-field__input-text" type="tel" name="Номер телефона" placeholder="+7 (___) ___-__-__">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Ссылка на сайт<span>*</span></span>
+                                    <input class="custom-field__input-text" type="url" name="Ссылка на сайт" placeholder="Ссылка на сайт">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Телеграм</span>
+                                    <input class="custom-field__input-text" type="url" name="Ссылка Телеграм" placeholder="Ссылка">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Вконтакте</span>
+                                    <input class="custom-field__input-text" type="url" name="Ссылка Вконтакте" placeholder="Ссылка">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Instagram</span>
+                                    <input class="custom-field__input-text" type="url" name="Ссылка Instagram" placeholder="Ссылка">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">YouTube</span>
+                                    <input class="custom-field__input-text" type="url" name="Ссылка YouTube" placeholder="Ссылка">                                                    
+                                </label>                                
+                            </div>
+                            <div class="col-md-5">
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Физический адрес<span>*</span></span>
+                                    <input class="custom-field__input-text" type="text" name="Физический адрес" placeholder="Физический адрес">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">ОГРН<span>*</span></span>
+                                    <input class="custom-field__input-text" type="text" name="ОГРН" placeholder="ОГРН">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Email<span>*</span></span>
+                                    <input class="custom-field__input-text" type="email" name="Email" placeholder="mail@gmail.ru">                                                    
+                                </label>
+                                <label class="add-company-form__field custom-field">
+                                    <span class="custom-field__lable">Описание компании<span>*</span></span>
+                                    <textarea class="custom-field__input-text textarea-big" type="textarea" name="Описание компании" placeholder="Описание компании"></textarea>                                             
+                                </label>
+                                <label class="add-company-form__field custom-field custom-field--img">
+                                    <span class="custom-field__lable">Логотип<span>*</span></span>
+                                    <span class="custom-field__img-text">Загрузите логотип</span>
+                                    <input class="custom-field__input-img" type="file" name="Логотип">                                                    
+                                </label>
+                                <label class="add-company-form__check custom-checkbox mb-3">
+                                    <input class="custom-checkbox__input" type="checkbox" checked>
+                                    <span class="custom-checkbox__text">Компания по дизайну помещений</span>
+                                </label>
+                                <label class="add-company-form__check custom-checkbox">
+                                    <input class="custom-checkbox__input" type="checkbox" checked>
+                                    <span class="custom-checkbox__text">Компания по ремонту помещений</span>
+                                </label>                                
+                                
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <input type="submit" class="add-company-form__btn main-btn main-btn--big" value="Добавить компанию">
+                        </div>                        
+                    </form>
+                </section>
+            </div>
+                    
+            </main>
+            <footer class="footer">
+    <div class="button-up">Вверх</div>
+    <div class="footer__body">
+        <div class="container">
+            <div class="row gy-2 gy-sm-4">
+                <div class="col-4 col-lg-2 col-xl-3">
+                    <a href="/" class="footer__logo logo header__logo">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#logo"></use>
+                        </svg>          
+                    </a>                
+                </div>
+                
+                <div class="ps-0 ps-sm-2 col-8 col-lg-3 order-lg-2 text-end">
+                    <a class="footer__btn main-btn" href="#">
+                        <svg class="icon-svg">
+                            <use xlink:href="img/icons/sprite-icons.svg#plus"></use>
+                        </svg>                        
+                        Добавить компанию</a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Добавить исполнителя</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Написать письмо</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Реклама на сайте</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Оставить заявку на ремонт</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 text-sm-end text-lg-start">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Правила размещения информации</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Пользовательское соглашение</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Политика конфиденциальности</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Карта сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="row justify-content-between gy-2">
+                <div class="col-auto">
+                    <a class="footer__link" href="#">Рейтинг компаний по ремонту и дизайну квартир</a>
+                </div>
+                <div class="col-auto">
+                    <span class="footer__link">©2022 - 2023 Все права защищены.</span>
+                </div>
+            </div>
+        </div>        
+    </div>
+</footer>
+
+<script src="libs/jquery.min.js"></script>
+<script src="libs/ion.rangeSlider.min.js"></script>
+<script src="js/app.js"></script> 
+        </div>  
+    </body>
+</html>
