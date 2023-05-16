@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-	<title>Карточка компании</title>
+	<title>Последние отзывы</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="libs/ion.rangeSlider.min.css?_v=20230516121819">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230516121819">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -83,8 +84,8 @@
         </nav>
     </div>
 </header>
-            <main class="company-page">
-                <div class="company-page__top page-top">
+            <main class="page">
+                <div class="page__top page-top">
                     <div class="container">
                         <nav class="page-top__breadcrumbs breadcrumbs" aria-label="breadcrumb">
                             <ol class="breadcrumbs__list">
@@ -92,232 +93,18 @@
                                     <a href="/">Главная</a>
                                 </li>
                                 <li class="breadcrumbs__item">
-                                    <a href="#">Ремонт квартир</a>
-                                </li>
-                                <li class="breadcrumbs__item">
-                                    <span>Невские зори</span>
+                                    <span>Последние отзывы</span>
                                 </li>                                    
                             </ol>                                
                         </nav>
-                        
+                        <div class="page-top__title">
+                            <h1>Последние отзывы</h1>
+                        </div>
                     </div>                    
                </div>
-               <div class="company-page__container">
-                    <div class="container">
-                        <section class="company-page__company company">
-                            <div class="company__item item">
-                                <div class="item__logo">
-                                    <img src="img/logos/nevskie-zori.jpg" alt="Невские зори">
-                                </div>
-                                <div class="item__body">
-                                    <div class="item__top">
-                                        <div class="item__title">
-                                            <h1>Невские зори</h1>
-                                        </div>
-                                        <div class="item__top-10 icon-top">
-                                            <svg class="icon-svg">
-                                                <use xlink:href="img/icons/sprite-icons.svg#top-10"></use>
-                                            </svg>
-                                            ТОП 10                                                        
-                                        </div>
-                                    </div>
-                                    <div class="item__rating">
-                                        <div class="item__stars stars">
-                                            <div class="stars__item active"></div>
-                                            <div class="stars__item active"></div>
-                                            <div class="stars__item active"></div>
-                                            <div class="stars__item active"></div>
-                                            <div class="stars__item active"></div>
-                                        </div>
-                                        <div class="item__review">47 отзывов</div>
-                                    </div>
-                                    <div class="item__socials socials">
-                                        <a href="#" class="socials__item">
-                                            <svg class="socials__icon icon-svg">
-                                                <use xlink:href="img/icons/sprite-icons.svg#vkontakte"></use>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="socials__item">
-                                            <svg class="socials__icon icon-svg">
-                                                <use xlink:href="img/icons/sprite-icons.svg#instagram"></use>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="socials__item">
-                                            <svg class="socials__icon icon-svg">
-                                                <use xlink:href="img/icons/sprite-icons.svg#youtube"></use>
-                                            </svg>
-                                        </a>
-                                        <a href="#" class="socials__item">
-                                            <svg class="socials__icon icon-svg">
-                                                <use xlink:href="img/icons/sprite-icons.svg#telegram"></use>
-                                            </svg>
-                                        </a>
-                                    </div>  
-                                    <div class="item__tags">
-                                        <div class="item__tag tag">Ремонт квартир</div>
-                                        <div class="item__tag tag">Застройщики</div>
-                                        <div class="item__tag tag">Строительные компании</div>
-                                        <div class="item__tag tag">Малоэтажное строительство</div>
-                                    </div>                                           
-                                </div>
-                                
-                                <div class="item__links">
-                                    <div class="item__price subtitle">3400 ₽ м<sup>2</sup></div>
-                                    <div class="item__mark item__mark--top"><span>89%</span> Рекомендуют</div>
-                                    <div class="item__buttons">                                        
-                                        <a class="main-btn modal-js" href="#modal-1">Оставить заявку</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="company__map">   
-                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d67abbb1cf8bd4720842b2f2fbfd16412943989803614f2c31b5c44b71249b9&amp;source=constructor"></iframe>                  
-                            </div>
-                            <div class="company__info main-info">
-                                <div class="row gy-3">
-                                    <div class="col-md-7 col-lg-8">
-                                        <div class="main-info__title">
-                                            <div class="h2">Общая информация</div>                                            
-                                        </div>
-                                        <p>Ремонт квартир в СПб отзывы клиентов, отзывы о ремонтных компаниях</p>
-                                        <div class="main-info__contacts">
-                                            <div class="main-info__contact item__info location-2-icon">
-                                                <svg class="metro-icon metro-icon--4 icon-svg">
-                                                    <use xlink:href="img/icons/sprite-icons.svg#metro"></use>
-                                                </svg>
-                                                <span>Улица Дыбенко</span> пр. Большевиков, д. 18 лит. А
-                                            </div>
-                                            <div class="main-info__contact item__info email-icon"><a href="mailto:finhouserus@gmail.com">finhouserus@gmail.com</a></div>
-                                            <div class="main-info__contact item__info phone-2-icon"><a href="tel:+78129874707">+7 (812) 987-47-07</a></div>
-                                            <div class="main-info__contact item__info site-icon"><a class="link" href="finhousegroup.ru">finhousegroup.ru</a></div>
-                                        </div>
-                                        <p>Наша компания оказывает максимально возможный объем услуг по ремонту квартир в Санкт-Петербурге. В нашем коллективе работают мастера с опытом более 15 лет, которым приходилось выполнять проекты различной сложности, в жилых, офисных помещениях. Покупаем стройматериалы только у проверенных поставщиков.</p>
-                                    </div>
-                                    <div class="col-md-5 col-lg-4">
-                                        <div class="company__rating rating-block">
-                                            <div class="rating-block__title subtitle">Рейтинг</div>
-                                            <div class="rating-block__stars-row">
-                                                <div class="rating-block__stars stars">
-                                                    <div class="stars__item stars__item--big active"></div>
-                                                    <div class="stars__item stars__item--big active"></div>
-                                                    <div class="stars__item stars__item--big active"></div>
-                                                    <div class="stars__item stars__item--big active"></div>
-                                                    <div class="stars__item stars__item--big active"></div>
-                                                </div>
-                                                <div class="rating-block__grade"><span>4,92</span>/5</div>
-                                                <div class="item__review">47 отзыва</div>
-                                            </div>
-                                            <div class="rating-block__item">
-                                                <div class="rating-block__subtitle xs-subtitle">Сроки выполнения</div>
-                                                <div class="rating-block__scale scale">
-                                                    <div class="scale__line">
-                                                        <div class="scale__bar" data-grade="4.92"></div>
-                                                    </div>
-                                                    <div class="scale__grade">4,92</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-block__item">
-                                                <div class="rating-block__subtitle xs-subtitle">Цены</div>
-                                                <div class="rating-block__scale scale">
-                                                    <div class="scale__line">
-                                                        <div class="scale__bar" data-grade="4.86"></div>
-                                                    </div>
-                                                    <div class="scale__grade">4,86</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-block__item">
-                                                <div class="rating-block__subtitle xs-subtitle">Качество ремонта</div>
-                                                <div class="rating-block__scale scale">
-                                                    <div class="scale__line">
-                                                        <div class="scale__bar" data-grade="4.92"></div>
-                                                    </div>
-                                                    <div class="scale__grade">4,92</div>
-                                                </div>
-                                            </div>
-                                            <div class="rating-block__item">
-                                                <div class="rating-block__subtitle xs-subtitle">Качество взаимодействия</div>
-                                                <div class="rating-block__scale scale">
-                                                    <div class="scale__line">
-                                                        <div class="scale__bar" data-grade="4.92"></div>
-                                                    </div>
-                                                    <div class="scale__grade">4,92</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <form class="company__review-form review-form">                                
-                                <div class="row">
-                                    <div class="col-md-9">
-                                        <div class="review-form__title h2">Оставить отзыв</div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <label class="review-form__field custom-field">
-                                                    <span class="custom-field__lable">Ваше имя<span>*</span></span>
-                                                    <input class="custom-field__input-text" type="text" name="Имя" placeholder="Иван Иванов">                                                    
-                                                </label>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label class="review-form__field custom-field">
-                                                    <span class="custom-field__lable">Email<span>*</span></span>
-                                                    <input class="custom-field__input-text" type="email" name="Email" placeholder="mail@gmail.ru">                                                    
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <label class="review-form__field custom-field">
-                                            <span class="custom-field__lable">Заголовок</span>
-                                            <input class="custom-field__input-text" type="text" name="Заголовок" placeholder="Потрясающая компания">                                                    
-                                        </label>
-                                        <label class="review-form__field custom-field">
-                                            <span class="custom-field__lable">Ваш отзыв<span>*</span></span>
-                                            <textarea class="custom-field__input-text" type="textarea" name="Отзыв" placeholder="Напишите свой отзыв"></textarea>                                             
-                                        </label>
-                                        <label class="review-form__check custom-checkbox">
-                                            <input class="custom-checkbox__input" type="checkbox" checked>
-                                            <span class="custom-checkbox__text">Даю согласие на обработку моих <a class="link" href="#">персональных данных</a></span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-3 ps-xl-5 pt-2">
-                                        <div class="review-form__subtitle subtitle">Оцените</div>
-                                        <div class="review-form__xs-subtitle xs-subtitle">Сроки выполнения<span>*</span></div>
-                                        <div class="review-form__rating stars-rating">
-                                            <input class="stars-rating__input" type="radio" name="Сроки выполнения" value="5">
-                                            <input class="stars-rating__input" type="radio" name="Сроки выполнения" value="4">
-                                            <input class="stars-rating__input" type="radio" name="Сроки выполнения" value="3">
-                                            <input class="stars-rating__input" type="radio" name="Сроки выполнения" value="2">
-                                            <input class="stars-rating__input" type="radio" name="Сроки выполнения" value="1">
-                                        </div>
-                                        <div class="review-form__xs-subtitle xs-subtitle">Цены<span>*</span></div>
-                                        <div class="review-form__rating stars-rating">
-                                            <input class="stars-rating__input" type="radio" name="Цены" value="5">
-                                            <input class="stars-rating__input" type="radio" name="Цены" value="4">
-                                            <input class="stars-rating__input" type="radio" name="Цены" value="3">
-                                            <input class="stars-rating__input" type="radio" name="Цены" value="2">
-                                            <input class="stars-rating__input" type="radio" name="Цены" value="1">
-                                        </div>
-                                        <div class="review-form__xs-subtitle xs-subtitle">Качество ремонта<span>*</span></div>
-                                        <div class="review-form__rating stars-rating">
-                                            <input class="stars-rating__input" type="radio" name="Качество ремонта" value="5">
-                                            <input class="stars-rating__input" type="radio" name="Качество ремонта" value="4">
-                                            <input class="stars-rating__input" type="radio" name="Качество ремонта" value="3">
-                                            <input class="stars-rating__input" type="radio" name="Качество ремонта" value="2">
-                                            <input class="stars-rating__input" type="radio" name="Качество ремонта" value="1">
-                                        </div>
-                                        <div class="review-form__xs-subtitle xs-subtitle">Качество взаимодействия<span>*</span></div>
-                                        <div class="review-form__rating stars-rating">
-                                            <input class="stars-rating__input" type="radio" name="Качество взаимодействия" value="5">
-                                            <input class="stars-rating__input" type="radio" name="Качество взаимодействия" value="4">
-                                            <input class="stars-rating__input" type="radio" name="Качество взаимодействия" value="3">
-                                            <input class="stars-rating__input" type="radio" name="Качество взаимодействия" value="2">
-                                            <input class="stars-rating__input" type="radio" name="Качество взаимодействия" value="1">
-                                        </div>
-                                        <input type="submit" class="review-form__btn main-btn" value="Оставить отзыв">
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
-                        <section class="company__reviews">
-                            <div class="h2 mb-4">Отзывы</div>
+               <div class="container">
+                    <section class="page__content">  
+                        <div class="latest-reviews">
                             <div class="review-horizontal">
                                 <div class="row gy-3">
                                     <div class="col-lg-8">
@@ -562,9 +349,9 @@
                                     </div>
                                 </div>                                
                             </div>
-                        </section>
-                </div>
-               </div>
+                        </div>
+                    </section>
+            </div>
                     
             </main>
             <footer class="footer">
@@ -620,8 +407,9 @@
     </div>
 </footer>
 
-<script src="libs/jquery.min.js"></script>
-<script src="js/app.js"></script> 
+<script src="libs/jquery.min.js?_v=20230516121819"></script>
+<script src="libs/ion.rangeSlider.min.js?_v=20230516121819"></script>
+<script src="js/app.js?_v=20230516121819"></script> 
         </div>  
     </body>
 </html>

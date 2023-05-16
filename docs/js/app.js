@@ -42,8 +42,11 @@ $(document).ready(function() {
 	  });
 
 	  $(".range-slider-js").ionRangeSlider({
+		skin: "round",
         min: 0,
         max: 100,
         from: 40,
+		postfix: " м<sup>2</sup>",
+		hide_min_max: true,
     });
 })

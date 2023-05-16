@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-	<title>Добавить компанию</title>
+	<title>Калькулятор ремонта</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="libs/ion.rangeSlider.min.css">
-	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="libs/ion.rangeSlider.min.css?_v=20230516121819">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230516121819">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -108,7 +108,7 @@
                         Наша компания оказывает максимально возможный объем услуг по ремонту квартир в Санкт-Петербурге. В нашем коллективе работают мастера с опытом более 15 лет, которым приходилось выполнять проекты различной сложности, в жилых, офисных помещениях. Покупаем стройматериалы только у проверенных поставщиков.
                     </div>                 
                     <form class="calculator">                                
-                        <div class="row gy-3">
+                        <div class="row gy-4">
                             <div class="col-lg-7">
                                 <div class="calculator__left">
                                     <fieldset class="calculator__item">
@@ -129,7 +129,7 @@
                                         </div>
                                     </fieldset>
                                     <fieldset class="calculator__item">
-                                        <legend class="calculator__subtitle subtitle">1. Кол-во комнат</legend>
+                                        <legend class="calculator__subtitle subtitle">2. Кол-во комнат</legend>
                                         <div class="calculator__row">
                                             <label class="calculator__radio radio-calc">
                                                 <input class="radio-calc__input" value="Студия" name="Кол-во комнат" type="radio" checked>
@@ -174,12 +174,49 @@
                                             </label>
                                         </div>
                                     </fieldset>
-                                    <fieldset class="calculator__item">
+                                    <fieldset class="calculator__range">
                                         <legend class="calculator__subtitle subtitle">4. Площадь</legend>
-                                        <div class="calculator__range range">
+                                        <div class="range">
                                             <input class="range__slider range-slider-js" type="text" name="Площадь"> 
                                         </div>
-                                    </fieldset>                                    
+                                    </fieldset>  
+                                    <div class="row gy-3">
+                                        <div class="col-sm-4">
+                                            <fieldset class="custom-field"> 
+                                                <legend class="custom-field__lable">Ремонт санузла</legend>
+                                                <select class="custom-select" name="Ремонт санузла">
+                                                    <option value="Да">Да</option>
+                                                    <option value="Нет">Нет</option>                                      
+                                                </select>  
+                                            </fieldset> 
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <fieldset class="custom-field"> 
+                                                <legend class="custom-field__lable">Теплые полы</legend>
+                                                <select class="custom-select" name="Теплые полы">
+                                                    <option value="Да">Да</option>
+                                                    <option value="Нет">Нет</option>                                      
+                                                </select>  
+                                            </fieldset> 
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <fieldset class="custom-field"> 
+                                                <legend class="custom-field__lable">Двери</legend>
+                                                <select class="custom-select" name="Двери">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>                                      
+                                                    <option value="3">3</option>                                      
+                                                    <option value="4">4</option>                                      
+                                                    <option value="5">5</option>                                      
+                                                    <option value="6">6</option>                                      
+                                                    <option value="7">7</option>                                      
+                                                    <option value="8">8</option>                                      
+                                                    <option value="9">9</option>                                      
+                                                    <option value="10">10</option>                                      
+                                                </select>  
+                                            </fieldset> 
+                                        </div>
+                                    </div>                                     
                                 </div>                                                                
                             </div>
                             <div class="col-lg-5">
@@ -263,9 +300,9 @@
     </div>
 </footer>
 
-<script src="libs/jquery.min.js"></script>
-<script src="libs/ion.rangeSlider.min.js"></script>
-<script src="js/app.js"></script> 
+<script src="libs/jquery.min.js?_v=20230516121819"></script>
+<script src="libs/ion.rangeSlider.min.js?_v=20230516121819"></script>
+<script src="js/app.js?_v=20230516121819"></script> 
         </div>  
     </body>
 </html>
