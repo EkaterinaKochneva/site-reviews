@@ -8,6 +8,14 @@ $(document).ready(function() {
 		$('.top-menu').removeClass('active');
 		$('body').removeClass('fixed-mb');
 	});
+	// Index page tabs
+	$('.page-top__buttons').on('click', '.page-top__btn:not(.active)', function (e) {
+		$(this)
+			.addClass('active').siblings().removeClass('active');
+			$('.index-page__content').hide().removeClass('active')
+			.eq($(this).index()).fadeIn(100).addClass('active');
+
+	});
 
 	// Tabs
 	$('.tabs__caption').on('click', '.tabs__btn:not(.active)', function (e) {
@@ -41,6 +49,7 @@ $(document).ready(function() {
 		$( this ).css('width', width);
 	  });
 
+	// Custom range
 	  $(".range-slider-js").ionRangeSlider({
 		skin: "round",
         min: 0,

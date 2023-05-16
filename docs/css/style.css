@@ -2058,9 +2058,17 @@ p:not([class]):last-child {
   padding: 202px 0 74px;
 }
 
+.index-page__main-tabs-content {
+  margin-top: 50px;
+}
+
 .index-page__content {
   position: relative;
-  margin-top: 50px;
+  display: none;
+}
+
+.index-page__content.active {
+  display: block;
 }
 
 .index-tabs__caption {
@@ -7808,7 +7816,7 @@ p:not([class]):last-child {
   }
 
   .item__mark::before {
-    width: 140px;
+    width: 150px;
     background-size: 100%;
   }
 
