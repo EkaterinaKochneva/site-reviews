@@ -58,4 +58,26 @@ $(document).ready(function() {
 		postfix: " м<sup>2</sup>",
 		hide_min_max: true,
     });
+
+	// Modal
+	const link = ".modal-js";
+	$(link).fancybox({
+		arrows: false,
+		infobar: false,
+		touch: false,
+		type: 'inline',
+		autoFocus: false,
+		i18n: {
+			en: {
+				CLOSE: "Закрыть",
+				NEXT: "Вперед",
+				PREV: "Назад" 
+
+			}
+		}
+	});
+	$(".modal-close-js").click(function () {
+		$.fancybox.close();
+	});
+	$.fancybox.defaults.backFocus = false;
 })
